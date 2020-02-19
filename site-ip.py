@@ -4,7 +4,6 @@ import re
 
 
 class GetIP:
-
     def __init__(self, host='google.com'):
         self.host = host
 
