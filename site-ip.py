@@ -26,7 +26,3 @@ class GetIP:
         except IndexError:
             return c
 
-
-getip = GetIP(input('Enter host(default:google.com)'))
-
-print(getip.get_ip_and_country())
